@@ -1,5 +1,4 @@
----
-spec_version: '0.1.0'
+version: '0.1.0'
 dashboard: query
 dtCreds: dynatrace-sprint
 attachRules:
