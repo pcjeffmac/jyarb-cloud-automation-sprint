@@ -13,18 +13,13 @@
     "sharingDetails": {
       "linkShared": false,
       "published": false
-    },
-    "tags": null
+    }
   },
   "tiles": [
     {
       "name": "Custom chart",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
-      "markdown": "",
       "bounds": {
         "top": 646,
         "left": 760,
@@ -34,8 +29,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Worker Process Count (Avg);sli=proc_count;",
@@ -72,9 +65,6 @@
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
       "markdown": "KQG.Total.Pass=90%;KQG.Total.Warning=70%;KQG.Compare.WithScore=pass;KQG.Compare.Results=1;KQG.Compare.Function=avg",
       "bounds": {
         "top": 114,
@@ -84,30 +74,12 @@
       },
       "tileFilter": {
         "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
       }
     },
     {
       "name": "Custom chart",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
-      "markdown": "",
       "bounds": {
         "top": 190,
         "left": 0,
@@ -117,8 +89,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Response time (P95);sli=svc_rt_p95;pass=\u003c+10%,\u003c600",
@@ -155,10 +125,6 @@
       "name": "Custom chart",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
-      "markdown": "",
       "bounds": {
         "top": 418,
         "left": 0,
@@ -168,8 +134,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Response time (P90);sli=svc_rt_p90;pass=\u003c+10%,\u003c550",
@@ -206,10 +170,6 @@
       "name": "Custom chart",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
-      "markdown": "",
       "bounds": {
         "top": 646,
         "left": 0,
@@ -219,8 +179,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Response time (P50);sli=svc_rt_p50;pass=\u003c+10%,\u003c500",
@@ -257,9 +215,6 @@
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
       "markdown": "## Service Performance (SLI/SLO)",
       "bounds": {
         "top": 152,
@@ -269,29 +224,12 @@
       },
       "tileFilter": {
         "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
       }
     },
     {
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
       "markdown": "## Host-based (SLI/SLO)",
       "bounds": {
         "top": 152,
@@ -301,29 +239,12 @@
       },
       "tileFilter": {
         "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
       }
     },
     {
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
       "markdown": "## Process Metrics (SLI/SLO)",
       "bounds": {
         "top": 152,
@@ -333,30 +254,12 @@
       },
       "tileFilter": {
         "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
       }
     },
     {
       "name": "Custom chart",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
-      "markdown": "",
       "bounds": {
         "top": 418,
         "left": 760,
@@ -366,8 +269,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Process Memory;sli=process_memory",
@@ -404,10 +305,6 @@
       "name": "Custom chart",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
-      "markdown": "",
       "bounds": {
         "top": 190,
         "left": 760,
@@ -417,8 +314,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Process CPU;sli=process_cpu;pass=\u003c20;warning=\u003c50;key=false",
@@ -455,9 +350,6 @@
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
       "markdown": "## Service Errors \u0026 Throughput (SLI/SLO)",
       "bounds": {
         "top": 152,
@@ -467,30 +359,12 @@
       },
       "tileFilter": {
         "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
       }
     },
     {
       "name": "Custom chart",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
-      "markdown": "",
       "bounds": {
         "top": 190,
         "left": 380,
@@ -500,8 +374,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Failure Rate (Avg);sli=svc_fr;pass=\u003c+10%,\u003c2",
@@ -538,10 +410,6 @@
       "name": "Custom chart",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
-      "markdown": "",
       "bounds": {
         "top": 418,
         "left": 380,
@@ -551,8 +419,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Throughput (per min);sli=svc_tp_min;pass=\u003c+10%,\u003c200",
@@ -589,9 +455,6 @@
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
       "markdown": "## Test Transaction (SLI/SLO)",
       "bounds": {
         "top": 152,
@@ -601,30 +464,12 @@
       },
       "tileFilter": {
         "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
       }
     },
     {
       "name": "Custom chart",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
-      "markdown": "",
       "bounds": {
         "top": 190,
         "left": 1178,
@@ -634,8 +479,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Host CPU %;sli=host_cpu;pass=\u003c20;warning=\u003c50;key=false",
@@ -665,10 +508,6 @@
       "name": "Custom chart",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
-      "markdown": "",
       "bounds": {
         "top": 418,
         "left": 1178,
@@ -678,8 +517,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Host Memory used %;sli=host_mem;pass=\u003c20;warning=\u003c50;key=false",
@@ -709,10 +546,6 @@
       "name": "Custom chart",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
-      "markdown": "",
       "bounds": {
         "top": 646,
         "left": 1178,
@@ -722,8 +555,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Host Disk Queue Length (max);sli=host_disk_queue;pass=\u003c=0;warning=\u003c1;key=false",
@@ -753,10 +584,6 @@
       "name": "Custom chart",
       "tileType": "CUSTOM_CHARTING",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
-      "markdown": "",
       "bounds": {
         "top": 646,
         "left": 380,
@@ -766,8 +593,6 @@
       "tileFilter": {
         "timeframe": ""
       },
-      "queries": null,
-      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Calls to backend services (per min);sli=svc2svc_calls;",
@@ -804,9 +629,6 @@
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
       "markdown": "## Extend with Test Transactions\n\n\nFollow the best practices around SRE-driven Performance Engineering as described in this [blog](https://www.dynatrace.com/news/blog/guide-to-automated-sre-driven-performance-engineering-analysis/)\n\nThis will allow you to add metrics per test or business transaction.",
       "bounds": {
         "top": 190,
@@ -816,29 +638,12 @@
       },
       "tileFilter": {
         "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
       }
     },
     {
       "name": "Markdown",
       "tileType": "MARKDOWN",
       "configured": true,
-      "query": "",
-      "type": "",
-      "customName": "",
       "markdown": "## Welcome to your first SLI/SLO-based Quality Gate Dashboard - view results in your [Keptn Bridge](http://keptn.54.224.34.201.nip.io/bridge/project/sockshop)\n \nThis default dashboard includes a set of base metrics (SLIs) that produce values in any Dynatrace deployment. \nUse this to make yourself familiar with defining your own SLIs (by adding more custom charts) and how to define SLOs (as part of the chart title) for every metric.\nThis default chart does not split by metric dimensions such as service, process, or host; however, splitting is supported by Keptn and is encouraged.\nFor more best practices on how to create these SLI/SLO dashboards please have a look at the [Dynatrace-SLI-Service readme](https://github.com/keptn-contrib/dynatrace-sli-service).",
       "bounds": {
         "top": 0,
@@ -848,20 +653,6 @@
       },
       "tileFilter": {
         "timeframe": ""
-      },
-      "queries": null,
-      "assignedEntities": null,
-      "filterConfig": {
-        "type": "",
-        "customName": "",
-        "defaultName": "",
-        "chartConfig": {
-          "legendShown": false,
-          "type": "",
-          "series": null,
-          "resultMetadata": {}
-        },
-        "filtersPerEntityType": null
       }
     }
   ]
