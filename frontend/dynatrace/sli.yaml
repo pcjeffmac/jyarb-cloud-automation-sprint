@@ -1,2 +1,14 @@
 spec_version: 0.1.4
-indicators: {}
+indicators:
+  host_cpu: MV2;Percent;metricSelector=builtin:host.cpu.usage:merge("dt.entity.host"):avg:names&entitySelector=type(HOST)
+  host_disk_queue: MV2;Count;metricSelector=builtin:host.disk.queueLength:merge("dt.entity.disk"):merge("dt.entity.host"):max:names&entitySelector=type(HOST)
+  host_mem: MV2;Percent;metricSelector=builtin:host.mem.usage:merge("dt.entity.host"):avg:names&entitySelector=type(HOST)
+  proc_count: MV2;Count;metricSelector=builtin:tech.generic.processCount:merge("dt.entity.process_group_instance"):avg:names&entitySelector=type(PROCESS_GROUP_INSTANCE),tag("keptn_service:frontend"),tag("keptn_stage:staging")
+  process_cpu: MV2;Percent;metricSelector=builtin:tech.generic.cpu.usage:merge("dt.entity.process_group_instance"):avg:names&entitySelector=type(PROCESS_GROUP_INSTANCE),tag("keptn_service:frontend"),tag("keptn_stage:staging")
+  process_memory: MV2;Byte;metricSelector=builtin:tech.generic.mem.workingSetSize:merge("dt.entity.process_group_instance"):avg:names&entitySelector=type(PROCESS_GROUP_INSTANCE),tag("keptn_service:frontend"),tag("keptn_stage:staging")
+  svc_fr: MV2;Percent;metricSelector=builtin:service.errors.server.rate:merge("dt.entity.service"):avg:names&entitySelector=type(SERVICE),tag("keptn_service:frontend"),tag("keptn_stage:staging")
+  svc_rt_p50: MV2;MicroSecond;metricSelector=builtin:service.response.time:merge("dt.entity.service"):percentile(50.000000):names&entitySelector=type(SERVICE),tag("keptn_service:frontend"),tag("keptn_stage:staging")
+  svc_rt_p90: MV2;MicroSecond;metricSelector=builtin:service.response.time:merge("dt.entity.service"):percentile(90.000000):names&entitySelector=type(SERVICE),tag("keptn_service:frontend"),tag("keptn_stage:staging")
+  svc_rt_p95: MV2;MicroSecond;metricSelector=builtin:service.response.time:merge("dt.entity.service"):percentile(95.000000):names&entitySelector=type(SERVICE),tag("keptn_service:frontend"),tag("keptn_stage:staging")
+  svc_tp_min: MV2;Count;metricSelector=builtin:service.requestCount.total:merge("dt.entity.service"):value:names&entitySelector=type(SERVICE),tag("keptn_service:frontend"),tag("keptn_stage:staging")
+  svc2svc_calls: MV2;Count;metricSelector=builtin:service.nonDbChildCallCount:merge("dt.entity.service"):value:names&entitySelector=type(SERVICE),tag("keptn_service:frontend"),tag("keptn_stage:staging")
